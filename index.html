@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.ul{
+margin-left: 400px;
+margin-top: 30px;
+}
+
+.ul li{
+display: contents;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul li a{
+margin-left:50px;
+text-decoration: none;
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    
+    height: 80vh;
+}
+.contents{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.contents h1 {
+    color: rgba(255, 68, 0, 0.678);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contents p{
+    color: rgba(0, 0, 0, 0.603);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}
+.hero img{
+    width: 500px;
+    margin-left: 700px;
+    margin-top: -230px;
+    animation: animate 10s infinite;
+}
+
+@keyframes animate {
+    0%, 100%{
+transform: rotate(0deg);
+    }
+    50%{
+transform: rotate(360deg);
+    }
+}
+
+
+.Explore{
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 6px;
+    padding: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+    position: absolute;
+    transition: 0.5s;
+}
+.Explore:hover{
+    background-color:rgba(255, 68, 0, 0.678) ;
+    border: none;
+    color: white;
+}
+.buy{
+    background: none;
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 6px;
+    padding: 7px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.buy:hover{
+    background-color:rgba(255, 68, 0, 0.678) ;
+    border: none;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <nav class="nav">
+       <ul class="ul">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Contact</a></li>
+       </ul>
+    </nav>
+<section class="hero">
+<div class="contents">
+    <h1>Enjoy Your Food</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quia?</p>
+    <button type="button" class="Explore">Explore More</button>
+    <button type="button" class="buy">Buy Now</button>
+</div>
+<img src="/pngwing.com (10).png" alt="">
+</section>
+</body>
+</html>
